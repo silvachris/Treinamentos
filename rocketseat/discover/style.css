@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /*background-image: url(./assets/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover; *preenche toda a tela de acordo com o tamanho do dispositivo*
+    background-size: contain; *contem a imagem dentro do parametro de tamanho do body, quando tiver uma imagem muito grande, ela vai se adequar ao tamanho do body*
+    *short-hand (atalho)*   
+    background: url(./assets/bg-mobile.jpg) no-repeat center top / cover; */
+    background: url(./assets/bg-mobile.jpg) no-repeat center top / cover;
+} 
+
+body * {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+#container {
+    width: 360px;
+    margin: 56px auto 0px;  
+      
+}
+#profile {
+    text-align: center;
+    padding: 24px;
+    
+}
+#profile img{
+    width: 112px;
+    }
+
+#profile p{
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 8px;
+}
+    
